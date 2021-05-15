@@ -2,9 +2,16 @@ import React from "react";
 
 function Home() {
     return(
-        <div>
-            <h1>Haufe Challenge</h1>
-            <h2>My CV</h2>
+        <div className={"content"}>
+        <div className="row">
+            <div className="column">
+                <h2>Haufe Challenge</h2>
+                <p>My CV - Ioan BAȘNIC</p>
+            </div>
+            <div className="column">
+                <div className={"myImg"}></div>
+            </div>
+        </div>
         </div>
     )
 }
