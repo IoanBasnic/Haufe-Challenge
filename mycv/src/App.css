@@ -86,7 +86,9 @@ a {
     width: 400%;
     height: 40vh;
   }
-
+  .row {
+    display: flex;
+  }
 }
 
 @media (orientation: portrait) {
@@ -96,6 +98,12 @@ a {
   .myImg {
     width: 400%;
     height: 20vh;
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
   }
 }
 
@@ -107,11 +115,12 @@ a {
   justify-content:center; align-items:center;
 }
 .column {
+  flex: 50%;
   align-content: center;
-  text-align: center;
+  text-align: left;
   float: left;
   width: 50%;
-  padding: 100px;
+  padding: 40px;
 }
 
 .myImg {
@@ -120,11 +129,7 @@ a {
   background-repeat: no-repeat;
 }
 
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
+
 
 @media screen and (max-width: 600px) {
   .column {
@@ -141,9 +146,39 @@ a {
 
 .wrapper{
   width: 1600px;
+  color: #222222;
   background: #ffffff;
   border-radius: 25px;
-  margin-top: 5%;
+  margin-top: 3%;
   overflow:hidden;
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+h1 {
+  color: #636363;
+}
+
+img {
+  max-width: 500px;
+  max-height: 500px;
+  align-self: center;
+}
+
+.skills  li{
+  margin-bottom: 3%;
+  margin-right: 3%;
+  display: inline-block;
+  padding: 20px 40px;
+  color: #f2f2f2;
+  background-image: linear-gradient(60deg, #3400A1, #90009B);
+}
+
+.wrapper a {
+  background-image: linear-gradient(60deg, #3400A1, #90009B);
+  color: #f2f2f2;
+  transition: box-shadow .3s;
+}
+
+.wrapper a:hover {
+  box-shadow: 0 0 60px rgba(33,33,33,.2);
 }
