@@ -182,3 +182,17 @@ img {
 .wrapper a:hover {
   box-shadow: 0 0 60px rgba(33,33,33,.2);
 }
+
+.projectHeader {
+  text-align: center;
+}
+
+.wrapper-proj a {
+  padding: 0;
+  color: #f2f2f2;
+  background: transparent;
+}
+
+.wrapper-proj {
+  float: initial !important;
+}
