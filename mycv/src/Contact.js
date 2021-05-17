@@ -1,10 +1,27 @@
-import React from "react";
+import React, { useState } from "react";
+import  { db } from "./firebase";
+
 
 function Contact() {
+    const [name, setName] = useState("");
+    const [email, setEmail] = useState("");
+    const [message, setMessage] = useState("");
+
     const handleSubmit = event => {
         console.log(event);
         event.preventDefault();
-        alert('You have submitted the form.')
+        db.collection('contacts').add({
+            name: name,
+            emai: email,
+            message: message,
+        }).then(() => {
+            alert('You have submitted the form.');
+        }).catch( (error) => {
+            alert(error.message);
+        });
+        setName("");
+        setMessage("");
+        setEmail("");
     }
     return(
         <div className="bef-wrapper">
@@ -18,15 +35,31 @@ function Contact() {
                     <div className="column">
                         <form onSubmit={handleSubmit}>
                                 <div className="form-group">
+                                    <label>
+                                        <p>Name</p>
+                                        <input
+                                            placeholder="Name"
+                                            value={name}
+                                            onChange={(e) => setName(e.target.value)}
+                                        />
+                                    </label>
                                 <label>
                                     <p>Email</p>
-                                    <input name="email" />
+                                    <input
+                                        placeholder="Email"
+                                        value={email}
+                                        onChange={(e) => setEmail(e.target.value)}
+                                    />
                                 </label>
                                  </div>
                                 <div className="form-group">
                                 <label>
                                     <p>Message</p>
-                                    <textarea name="message" />
+                                    <textarea
+                                        placeholder="Message"
+                                        value={message}
+                                        onChange={(e) => setMessage(e.target.value)}
+                                    />
                                 </label>
                                 </div>
                             <button className={"submitBtn"} type="submit">Submit</button>
