@@ -18,7 +18,7 @@ function About() {
                             Engineering (Bachelor's degree).</p><p> My interests are: OOP, Java programming, Databases and Web
                             Development.</p><p> Technologies that I am familiar with: Java, C, Javascript, NodeJS, C#, Oracle SQL, HTML5, CSS3,
                             Linux, Git, Matlab. However, I'm always open to delve into new tools related to my field of study.</p>
-                        <Link to={"/contact"}>Contact me</Link>
+                        <div className={"aboutBtn"}><Link to={"/contact"}>Contact me</Link> </div>
                     </div>
 
                 </div>
