@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Haufe-Challenge/static/css/main.edb0533f.chunk.css",
+    "main.css": "/Haufe-Challenge/static/css/main.faa77fe5.chunk.css",
     "main.js": "/Haufe-Challenge/static/js/main.35acbde8.chunk.js",
     "main.js.map": "/Haufe-Challenge/static/js/main.35acbde8.chunk.js.map",
     "runtime-main.js": "/Haufe-Challenge/static/js/runtime-main.c6a48dca.js",
@@ -10,14 +10,14 @@
     "static/js/3.fd37637d.chunk.js": "/Haufe-Challenge/static/js/3.fd37637d.chunk.js",
     "static/js/3.fd37637d.chunk.js.map": "/Haufe-Challenge/static/js/3.fd37637d.chunk.js.map",
     "index.html": "/Haufe-Challenge/index.html",
-    "static/css/main.edb0533f.chunk.css.map": "/Haufe-Challenge/static/css/main.edb0533f.chunk.css.map",
+    "static/css/main.faa77fe5.chunk.css.map": "/Haufe-Challenge/static/css/main.faa77fe5.chunk.css.map",
     "static/js/2.8556e6a9.chunk.js.LICENSE.txt": "/Haufe-Challenge/static/js/2.8556e6a9.chunk.js.LICENSE.txt",
     "static/media/logo.6ce24c58.svg": "/Haufe-Challenge/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.c6a48dca.js",
     "static/js/2.8556e6a9.chunk.js",
-    "static/css/main.edb0533f.chunk.css",
+    "static/css/main.faa77fe5.chunk.css",
     "static/js/main.35acbde8.chunk.js"
   ]
 }
