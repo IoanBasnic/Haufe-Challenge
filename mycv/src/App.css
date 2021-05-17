@@ -133,6 +133,22 @@ ul {
     display: table;
     clear: both;
   }
+
+  img {
+    max-width: 200px;
+    max-height: 200px;
+  }
+
+
+  form textarea {
+    width: 20rem !important;
+  }
+  form input {
+    width: 20rem !important;
+  }
+  form input, .submitBtn {
+    width: 20rem !important;
+  }
 }
 
 .content {
@@ -161,6 +177,10 @@ ul {
 @media screen and (max-width: 600px) {
   .column {
     width: 100%;
+  }
+  img {
+    width: 70%;
+    height: 70%;
   }
 }
 
