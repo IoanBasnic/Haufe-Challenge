@@ -42,18 +42,19 @@ function About() {
                         <li>Java</li>
                         <li>Javascript</li>
                         <li>Node.js</li>
-                        <li>Angular.js</li>
+                        <li>Angular JS</li>
                         <li>Oracle SQL</li>
                         <li>MySQL</li>
                         <li>HTML5 & CSS3</li>
                         <li>C</li>
+                        <li>Git</li>
                         <li>Matlab</li>
                     </ul>
                 </div>
                 <div className="column">
                     <h1>My other skills</h1>
                     <ul className={"skills"}>
-                        <li>Quick Leaner</li>
+                        <li>Quick Learner</li>
                         <li>Adaptive</li>
                         <li>Time management</li>
                         <li>Responsible</li>
