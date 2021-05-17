@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Haufe-Challenge/static/css/main.faa77fe5.chunk.css",
-    "main.js": "/Haufe-Challenge/static/js/main.35acbde8.chunk.js",
-    "main.js.map": "/Haufe-Challenge/static/js/main.35acbde8.chunk.js.map",
+    "main.js": "/Haufe-Challenge/static/js/main.2ba0522e.chunk.js",
+    "main.js.map": "/Haufe-Challenge/static/js/main.2ba0522e.chunk.js.map",
     "runtime-main.js": "/Haufe-Challenge/static/js/runtime-main.c6a48dca.js",
     "runtime-main.js.map": "/Haufe-Challenge/static/js/runtime-main.c6a48dca.js.map",
     "static/js/2.8556e6a9.chunk.js": "/Haufe-Challenge/static/js/2.8556e6a9.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.c6a48dca.js",
     "static/js/2.8556e6a9.chunk.js",
     "static/css/main.faa77fe5.chunk.css",
-    "static/js/main.35acbde8.chunk.js"
+    "static/js/main.2ba0522e.chunk.js"
   ]
 }
