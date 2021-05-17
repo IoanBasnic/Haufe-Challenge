@@ -44,6 +44,7 @@ function About() {
                         <li>Node.js</li>
                         <li>Angular.js</li>
                         <li>Oracle SQL</li>
+                        <li>MySQL</li>
                         <li>HTML5 & CSS3</li>
                         <li>C</li>
                         <li>Matlab</li>
@@ -56,12 +57,36 @@ function About() {
                         <li>Adaptive</li>
                         <li>Time management</li>
                         <li>Responsible</li>
+                        <li>Communicator</li>
+                        <li>Cooperator</li>
+                        <li>Creative and able to think artistically</li>
                     </ul>
                 </div>
             </div>
         </div>
     </div>
 
+            <div className="bef-wrapper">
+                <div className="wrapper">
+                    <div className="row">
+                        <div className="column">
+                            <h1>Volunteer at Liga AC: 20 Oct. 2018 - Current </h1>
+                            <p>I'm a volunteer at Liga AC as a Graphic Designer.</p>
+                            <p>My job is to create new concepts, new graphic illustrations/logos/photos for our projects.</p>
+                            <p>Tools that I'm using:</p>
+                            <ul className={"skills"}>
+                                <li>Adobe Illustrator</li>
+                                <li>Adobe Photoshop</li>
+                                <li>Adobe Premiere Pro</li>
+                                <li>Figma</li>
+                            </ul>
+                        </div>
+                        <div className="column">
+                            <img src="https://i.ibb.co/dQ5Hvjg/Liga-AC-Logo-Full-Color-Tall-No-Slogan.png" />
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }

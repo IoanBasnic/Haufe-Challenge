@@ -12,7 +12,7 @@ function Contact() {
         event.preventDefault();
         db.collection('contacts').add({
             name: name,
-            emai: email,
+            email: email,
             message: message,
         }).then(() => {
             alert('You have submitted the form.');
