@@ -28,13 +28,14 @@ function Projects() {
                     </div>
 
                     <div className="column">
-                        <a href={"https://github.com/paulcaraa/COproj_benchmark"}><img src="https://i.ibb.co/grtJWmr/c0proj.png"/></a>
+                        <a href={"https://github.com/IoanBasnic/SEFproject"}><img src="https://i.ibb.co/jfK3D0P/sef.png"/></a>
                     </div>
                 </div>
 
                 <div className="row">
                     <div className="column">
-                        <a href={"https://github.com/IoanBasnic/SEFproject"}><img src="https://i.ibb.co/jfK3D0P/sef.png"/></a>
+                        <a href={"https://github.com/paulcaraa/COproj_benchmark"}><img src="https://i.ibb.co/grtJWmr/c0proj.png"/></a>
+
                     </div>
                 </div>
             </div>
